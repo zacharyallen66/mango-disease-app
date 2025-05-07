@@ -4,8 +4,8 @@ A deep learning-powered web application for classifying mango leaf diseases and 
 
 ## 📸 Application Preview
 
-| Disease Detection Interface | Remedial Logic Diagram |
-|----------------------------|-------------------------|
+| Disease Detection Interface |
+|----------------------------|
 | ![image](https://github.com/user-attachments/assets/74d05a21-cdab-4de1-ba1d-bb45468646ed)|
 
 > The model predicts the disease category from a user-uploaded leaf image and displays an explanation and treatment advice.
