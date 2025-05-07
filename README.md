@@ -52,3 +52,29 @@ conda create -n mango_tf python=3.8
 conda activate mango_tf
 
 pip install -r requirements.txt
+2. Run the App
+bash
+Copy
+Edit
+streamlit run app.py
+The app will launch at http://localhost:8501
+
+🧾 Dataset & Model Files
+🔗 Google Drive Folder — Dataset & Trained Models
+
+Contains:
+
+📂 mango-leaf-disease-dataset/ – Training & validation images
+
+📦 mango_model_fixed.keras – Final model compatible with new TensorFlow APIs
+
+📦 *.h5 – Legacy versions for backward compatibility
+
+💡 Credits
+Developed as part of a university project for MIS 776: Image Classification, Fall 2024.
+
+📌 Notes
+The model currently uses a fixed softmax classifier; improvements could include confidence thresholds and ensemble voting.
+
+Ensure consistent TensorFlow/Keras versions to avoid deserialization issues (InputLayer incompatibilities).
+
