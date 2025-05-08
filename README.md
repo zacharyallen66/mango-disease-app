@@ -59,16 +59,15 @@ Edit
 streamlit run app.py
 The app will launch at http://localhost:8501
 
-🧾 Dataset & Model Files
-🔗 Google Drive Folder — Dataset & Trained Models
+## 🧾 Dataset & Model Files
+
+📂 **[Google Drive Folder — Dataset & Trained Models](https://drive.google.com/drive/folders/1kFK9Vu5M1jHPjHA3hrTxJG3SwX5lsYZ5?usp=sharing)**
 
 Contains:
+- 📁 `mango-leaf-disease-dataset/` – Training & validation images  
+- 📦 `mango_model_fixed.keras` – Final model compatible with new TensorFlow APIs  
+- 📦 `.h5` models – Legacy versions for backward compatibility
 
-📂 mango-leaf-disease-dataset/ – Training & validation images
-
-📦 mango_model_fixed.keras – Final model compatible with new TensorFlow APIs
-
-📦 *.h5 – Legacy versions for backward compatibility
 
 💡 Credits
 Developed as part of a university project for MIS 776: Image Classification, Fall 2024.
